@@ -7,7 +7,7 @@ const ejs = require('ejs')
 const User = require('./models/usermodel')
 
 
-// declaring passport and sessions
+// declaring passport and session
 const flash = require('connect-flash');
 const session = require('express-session')
 const _ = require("lodash");
